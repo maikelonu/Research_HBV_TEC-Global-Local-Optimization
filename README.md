@@ -1,4 +1,4 @@
-![alt test](/FIG_TM_02.png.png)
+![alt test](/FIG_TM_02.png)
 
 # Global and Local optimization of the HBV-TEC-96 HYDROLOGICAL MODEL
 
