@@ -1,0 +1,6 @@
+ATTRIBUTE	VALUE
+WatershedArea	43.15
+fract_SMinitial	0.928
+fract_SLZinitial	0.77
+time_resolution	1
+routing	1
