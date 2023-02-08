@@ -17,14 +17,14 @@
 # Aghakouchak, A., Habib, E. 2010. Application of a conceptual hydrologic model in 
 # teaching hydrologic processes. Int J Engng Ed 26: 963-973.
 # 
-# Bergström, S. 1995. The HBV Model. In: V.P. Singh (editor) Computer Models of Watershed
+# BergstrÃ¶m, S. 1995. The HBV Model. In: V.P. Singh (editor) Computer Models of Watershed
 # Hydrology. Water Resources Publications, Highlands Ranch, Colorado pp. 443- 470.
 #
 # Herman, J.D., Reed, P.M., Wagener, T. 2013. Time-varying sensitivity analysis 
 # clarifies the effects of watershed model formulation on model behavior.
 # Water Resour Res 49: 1400-1414.
 #
-# Lindström, G., Johansson, B., Persson, M., Gardelin, M., Bergström, S. 1997. Development
+# LindstrÃ¶m, G., Johansson, B., Persson, M., Gardelin, M., BergstrÃ¶m, S. 1997. Development
 # and test of the distributed HBV-96 hydrological model. J Hydrol 201: 272-288.
 # 
 # Seibert, J. Vis, MJP. 2012. Teaching hydrological modeling with a user-friendly 
