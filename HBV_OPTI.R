@@ -17,20 +17,24 @@
 # Aghakouchak, A., Habib, E. 2010. Application of a conceptual hydrologic model in 
 # teaching hydrologic processes. Int J Engng Ed 26: 963-973.
 # 
-# Bergström, S. 1995. The HBV Model. In: V.P. Singh (editor) Computer Models of Watershed
+# Bergstr?m, S. 1995. The HBV Model. In: V.P. Singh (editor) Computer Models of Watershed
 # Hydrology. Water Resources Publications, Highlands Ranch, Colorado pp. 443- 470.
 #
 # Herman, J.D., Reed, P.M., Wagener, T. 2013. Time-varying sensitivity analysis 
 # clarifies the effects of watershed model formulation on model behavior.
 # Water Resour Res 49: 1400-1414.
 #
-# Lindström, G., Johansson, B., Persson, M., Gardelin, M., Bergström, S. 1997. Development
+# Lindstr?m, G., Johansson, B., Persson, M., Gardelin, M., Bergstr?m, S. 1997. Development
 # and test of the distributed HBV-96 hydrological model. J Hydrol 201: 272-288.
 # 
 # Seibert, J. Vis, MJP. 2012. Teaching hydrological modeling with a user-friendly 
 # catchment-runoff-model software package. Hydrol Earth Syst Sci 16: 3315-3325.
 #
 #///////////////////////////////////////////////////////////////////////////////////////////
+
+#install.packages("~/Downloads/Rvmmin_2018-4.17.tar.gz", repos=NULL, type="source")
+#install.packages("~/Downloads/Rcgmin_2022-4.30.tar.gz", repos=NULL, type="source")
+
 
 # Workspace is cleared
 rm(list = ls())
@@ -59,6 +63,7 @@ require(minpack.lm)
 require(minqa)
 require(nloptr)
 require(optimx)
+require(optextras)
 require(parallel)
 require(pastecs)
 require(PolynomF)
@@ -74,7 +79,7 @@ require(snow)
 require(visreg)
 
 # Working directory is defined
-setwd("C:/DATOS/R_ITC/HBV_TEC/HBV_TEC_96_VECTOR")
+setwd("~/MEGA/Academics/HBV_TEC_96_VECTOR")
 
 # /////////////////////////////////////////////////////////
 # BLOCK: Parallel functions are defined
@@ -1778,7 +1783,7 @@ pars.HIG <- c(fc=800, #800,
 ptm <- proc.time()
 
 # f.HBV01 function is evaluated
-f.HBV01(par =pars.OPTI)
+f.HBV01(par = pars.OPTI)
 #f.HBV04(parS =pars.OPTI.G)
 
 # Stop the clock
